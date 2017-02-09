@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C486A21E4C53B1002D6166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C486A11E4C53B1002D6166 /* main.m */; };
+		52C486A51E4C53B1002D6166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C486A41E4C53B1002D6166 /* AppDelegate.m */; };
+		52C486A81E4C53B1002D6166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C486A71E4C53B1002D6166 /* ViewController.m */; };
+		52C486AB1E4C53B1002D6166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C486A91E4C53B1002D6166 /* Main.storyboard */; };
+		52C486AD1E4C53B1002D6166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C486AC1E4C53B1002D6166 /* Assets.xcassets */; };
+		52C486B01E4C53B1002D6166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C486AE1E4C53B1002D6166 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52C4869D1E4C53B1002D6166 /* horckLogom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = horckLogom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C486A11E4C53B1002D6166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52C486A31E4C53B1002D6166 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52C486A41E4C53B1002D6166 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52C486A61E4C53B1002D6166 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52C486A71E4C53B1002D6166 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52C486AA1E4C53B1002D6166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52C486AC1E4C53B1002D6166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52C486AF1E4C53B1002D6166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52C486B11E4C53B1002D6166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52C4869A1E4C53B0002D6166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52C486941E4C53B0002D6166 = {
+			isa = PBXGroup;
+			children = (
+				52C4869F1E4C53B1002D6166 /* horckLogom */,
+				52C4869E1E4C53B1002D6166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52C4869E1E4C53B1002D6166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52C4869D1E4C53B1002D6166 /* horckLogom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52C4869F1E4C53B1002D6166 /* horckLogom */ = {
+			isa = PBXGroup;
+			children = (
+				52C486A31E4C53B1002D6166 /* AppDelegate.h */,
+				52C486A41E4C53B1002D6166 /* AppDelegate.m */,
+				52C486A61E4C53B1002D6166 /* ViewController.h */,
+				52C486A71E4C53B1002D6166 /* ViewController.m */,
+				52C486A91E4C53B1002D6166 /* Main.storyboard */,
+				52C486AC1E4C53B1002D6166 /* Assets.xcassets */,
+				52C486AE1E4C53B1002D6166 /* LaunchScreen.storyboard */,
+				52C486B11E4C53B1002D6166 /* Info.plist */,
+				52C486A01E4C53B1002D6166 /* Supporting Files */,
+			);
+			path = horckLogom;
+			sourceTree = "<group>";
+		};
+		52C486A01E4C53B1002D6166 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C486A11E4C53B1002D6166 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52C4869C1E4C53B0002D6166 /* horckLogom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C486B41E4C53B1002D6166 /* Build configuration list for PBXNativeTarget "horckLogom" */;
+			buildPhases = (
+				52C486991E4C53B0002D6166 /* Sources */,
+				52C4869A1E4C53B0002D6166 /* Frameworks */,
+				52C4869B1E4C53B0002D6166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = horckLogom;
+			productName = horckLogom;
+			productReference = 52C4869D1E4C53B1002D6166 /* horckLogom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52C486951E4C53B0002D6166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = john;
+				TargetAttributes = {
+					52C4869C1E4C53B0002D6166 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 52C486981E4C53B0002D6166 /* Build configuration list for PBXProject "horckLogom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52C486941E4C53B0002D6166;
+			productRefGroup = 52C4869E1E4C53B1002D6166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52C4869C1E4C53B0002D6166 /* horckLogom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52C4869B1E4C53B0002D6166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C486B01E4C53B1002D6166 /* LaunchScreen.storyboard in Resources */,
+				52C486AD1E4C53B1002D6166 /* Assets.xcassets in Resources */,
+				52C486AB1E4C53B1002D6166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52C486991E4C53B0002D6166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C486A81E4C53B1002D6166 /* ViewController.m in Sources */,
+				52C486A51E4C53B1002D6166 /* AppDelegate.m in Sources */,
+				52C486A21E4C53B1002D6166 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52C486A91E4C53B1002D6166 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C486AA1E4C53B1002D6166 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52C486AE1E4C53B1002D6166 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C486AF1E4C53B1002D6166 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52C486B21E4C53B1002D6166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52C486B31E4C53B1002D6166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52C486B51E4C53B1002D6166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = horckLogom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiXiangKeJi.horckLogom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52C486B61E4C53B1002D6166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = horckLogom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiXiangKeJi.horckLogom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52C486981E4C53B0002D6166 /* Build configuration list for PBXProject "horckLogom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C486B21E4C53B1002D6166 /* Debug */,
+				52C486B31E4C53B1002D6166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C486B41E4C53B1002D6166 /* Build configuration list for PBXNativeTarget "horckLogom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C486B51E4C53B1002D6166 /* Debug */,
+				52C486B61E4C53B1002D6166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52C486951E4C53B0002D6166 /* Project object */;
+}
