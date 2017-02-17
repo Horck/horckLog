@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		521336F41E56D02100421650 /* AppDelegate+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 521336F11E56D02100421650 /* AppDelegate+Config.m */; };
-		521336F51E56D02100421650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521336F31E56D02100421650 /* AppDelegate.m */; };
+		521336FB1E56D22B00421650 /* AppDelegate+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 521336F81E56D22B00421650 /* AppDelegate+Config.m */; };
+		521336FC1E56D22B00421650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521336FA1E56D22B00421650 /* AppDelegate.m */; };
 		52C486A21E4C53B1002D6166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C486A11E4C53B1002D6166 /* main.m */; };
 		52C486A81E4C53B1002D6166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C486A71E4C53B1002D6166 /* ViewController.m */; };
 		52C486AB1E4C53B1002D6166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C486A91E4C53B1002D6166 /* Main.storyboard */; };
@@ -17,10 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		521336F01E56D02100421650 /* AppDelegate+Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Config.h"; sourceTree = "<group>"; };
-		521336F11E56D02100421650 /* AppDelegate+Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Config.m"; sourceTree = "<group>"; };
-		521336F21E56D02100421650 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		521336F31E56D02100421650 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		521336F71E56D22B00421650 /* AppDelegate+Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Config.h"; sourceTree = "<group>"; };
+		521336F81E56D22B00421650 /* AppDelegate+Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Config.m"; sourceTree = "<group>"; };
+		521336F91E56D22B00421650 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		521336FA1E56D22B00421650 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		52C4869D1E4C53B1002D6166 /* horckLogom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = horckLogom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C486A11E4C53B1002D6166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52C486A61E4C53B1002D6166 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -42,13 +42,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		521336EF1E56D02100421650 /* AppdelegateConfig */ = {
+		521336F61E56D22B00421650 /* AppdelegateConfig */ = {
 			isa = PBXGroup;
 			children = (
-				521336F01E56D02100421650 /* AppDelegate+Config.h */,
-				521336F11E56D02100421650 /* AppDelegate+Config.m */,
-				521336F21E56D02100421650 /* AppDelegate.h */,
-				521336F31E56D02100421650 /* AppDelegate.m */,
+				521336F71E56D22B00421650 /* AppDelegate+Config.h */,
+				521336F81E56D22B00421650 /* AppDelegate+Config.m */,
+				521336F91E56D22B00421650 /* AppDelegate.h */,
+				521336FA1E56D22B00421650 /* AppDelegate.m */,
 			);
 			path = AppdelegateConfig;
 			sourceTree = "<group>";
@@ -72,7 +72,7 @@
 		52C4869F1E4C53B1002D6166 /* horckLogom */ = {
 			isa = PBXGroup;
 			children = (
-				521336EF1E56D02100421650 /* AppdelegateConfig */,
+				521336F61E56D22B00421650 /* AppdelegateConfig */,
 				52C486A61E4C53B1002D6166 /* ViewController.h */,
 				52C486A71E4C53B1002D6166 /* ViewController.m */,
 				52C486A91E4C53B1002D6166 /* Main.storyboard */,
@@ -163,8 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521336F51E56D02100421650 /* AppDelegate.m in Sources */,
-				521336F41E56D02100421650 /* AppDelegate+Config.m in Sources */,
+				521336FC1E56D22B00421650 /* AppDelegate.m in Sources */,
+				521336FB1E56D22B00421650 /* AppDelegate+Config.m in Sources */,
 				52C486A81E4C53B1002D6166 /* ViewController.m in Sources */,
 				52C486A21E4C53B1002D6166 /* main.m in Sources */,
 			);
