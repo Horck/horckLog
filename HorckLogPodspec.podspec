@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Horck/horckLog.git", :tag => s.version }
 
 
-  s.source_files  = "AppdelegateConfig"
+  s.source_files  = "horckLogom/AppdelegateConfig"
 
 
   s.frameworks   = "Foundation", "UIKit"
