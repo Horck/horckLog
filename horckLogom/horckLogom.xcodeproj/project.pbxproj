@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521336EE1E56CA6400421650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521336ED1E56CA6400421650 /* AppDelegate.m */; };
 		522AAA621E559F9400D11580 /* AppDelegate+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 522AAA611E559F9400D11580 /* AppDelegate+Config.m */; };
 		52C486A21E4C53B1002D6166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C486A11E4C53B1002D6166 /* main.m */; };
-		52C486A51E4C53B1002D6166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C486A41E4C53B1002D6166 /* AppDelegate.m */; };
 		52C486A81E4C53B1002D6166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C486A71E4C53B1002D6166 /* ViewController.m */; };
 		52C486AB1E4C53B1002D6166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C486A91E4C53B1002D6166 /* Main.storyboard */; };
 		52C486AD1E4C53B1002D6166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C486AC1E4C53B1002D6166 /* Assets.xcassets */; };
@@ -17,12 +17,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		521336EC1E56CA6400421650 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		521336ED1E56CA6400421650 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		522AAA601E559F9400D11580 /* AppDelegate+Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Config.h"; sourceTree = "<group>"; };
 		522AAA611E559F9400D11580 /* AppDelegate+Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Config.m"; sourceTree = "<group>"; };
 		52C4869D1E4C53B1002D6166 /* horckLogom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = horckLogom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C486A11E4C53B1002D6166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52C486A31E4C53B1002D6166 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		52C486A41E4C53B1002D6166 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		52C486A61E4C53B1002D6166 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		52C486A71E4C53B1002D6166 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		52C486AA1E4C53B1002D6166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +45,8 @@
 		522AAA5F1E559F7000D11580 /* AppdelegateConfig */ = {
 			isa = PBXGroup;
 			children = (
+				521336EC1E56CA6400421650 /* AppDelegate.h */,
+				521336ED1E56CA6400421650 /* AppDelegate.m */,
 				522AAA601E559F9400D11580 /* AppDelegate+Config.h */,
 				522AAA611E559F9400D11580 /* AppDelegate+Config.m */,
 			);
@@ -70,8 +72,6 @@
 		52C4869F1E4C53B1002D6166 /* horckLogom */ = {
 			isa = PBXGroup;
 			children = (
-				52C486A31E4C53B1002D6166 /* AppDelegate.h */,
-				52C486A41E4C53B1002D6166 /* AppDelegate.m */,
 				52C486A61E4C53B1002D6166 /* ViewController.h */,
 				52C486A71E4C53B1002D6166 /* ViewController.m */,
 				52C486A91E4C53B1002D6166 /* Main.storyboard */,
@@ -163,9 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521336EE1E56CA6400421650 /* AppDelegate.m in Sources */,
 				522AAA621E559F9400D11580 /* AppDelegate+Config.m in Sources */,
 				52C486A81E4C53B1002D6166 /* ViewController.m in Sources */,
-				52C486A51E4C53B1002D6166 /* AppDelegate.m in Sources */,
 				52C486A21E4C53B1002D6166 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
